@@ -1,7 +1,7 @@
 ## Configuración de la variable
 
-[!WARNING]
-Esta variable es necesaria para que el sistema funcione correctamente.
+> [!WARNING]
+> Esta variable es necesaria para que el sistema funcione correctamente.
 
 Si no creas esta variable o modificas su estructura, el sistema puede dejar de funcionar.»
 
