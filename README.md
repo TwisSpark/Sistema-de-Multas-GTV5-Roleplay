@@ -39,7 +39,7 @@ $var[info;
 **Estado:** $var[estado]
 **Fecha:** <t:$getTimestamp:D>
 ]
-'''
+```
 
 Esta parte está pensada para que puedas modificarla según las necesidades de tu servidor.
 
