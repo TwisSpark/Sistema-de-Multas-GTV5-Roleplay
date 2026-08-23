@@ -3,17 +3,17 @@
 > [!WARNING]
 > Esta variable es necesaria para que el sistema funcione correctamente.
 
-Si no creas esta variable o modificas su estructura, el sistema puede dejar de funcionar.»
+Si no creas esta variable o modificas su estructura, el sistema puede dejar de funcionar.
 
-Crear la variable
+### Crear la variable
 
 En la aplicación Bot Designer For Discord (BDFD) debes crear una variable con exactamente estos datos.
 
-Nombre de la variable
+**Nombre de la variable**
 
-configFines_Spark
+``configFines_Spark``
 
-### Valor de la variable
+**Valor de la variable**
 
 ```json 
 {
@@ -23,7 +23,7 @@ configFines_Spark
 }
 ```
 
-Configuración del canal de logs
+## Configuración del canal de logs
 
 Debes cambiar únicamente la ID:
 
@@ -41,16 +41,16 @@ por la ID del canal de logs de tu servidor.
 }
 ```
 
-«[!CAUTION]
-No cambies ninguna otra parte del JSON.
+> [!CAUTION]
+> No cambies ninguna otra parte del JSON.
 
 Solamente reemplaza la ID del canal de logs.
 
 No modifiques "fines", "limit_fines" ni los nombres de las propiedades.
 
-Si modificas la estructura del JSON, puedes provocar errores y hacer que el sistema no funcione correctamente.»
+Si modificas la estructura del JSON, puedes provocar errores y hacer que el sistema no funcione correctamente.
 
-**¿Por qué el límite es de 15 multas?**
+### ¿Por qué el límite es de 15 multas?
 
 En esta versión del sistema, el límite está establecido en 15 multas por usuario.
 
@@ -62,10 +62,10 @@ Por esta razón, la variable utiliza:
 
 No se agregaron más opciones en esta versión porque el sistema actual utiliza este menú para seleccionar y consultar las multas.
 
-«[!NOTE]
-Este límite corresponde a la versión actual del sistema. En una futura versión se podría utilizar otra forma de mostrar las multas para permitir una cantidad mayor.»
+> [!NOTE]
+> Este límite corresponde a la versión actual del sistema. En una futura versión se podría utilizar otra forma de mostrar las multas para permitir una cantidad mayor.
 
-**¿Cómo obtener la ID del canal?**
+### ¿Cómo obtener la ID del canal?
 
 Para obtener la ID de un canal necesitas activar el Modo Desarrollador de Discord.
 
@@ -83,5 +83,5 @@ Asegúrate de que:
 - [ ] La ID corresponde al canal donde el bot guardará los registros.
 - [ ] No modificaste ninguna otra parte del JSON.
 
-«[!IMPORTANT]
-Esta variable es obligatoria. Si no la agregas correctamente, el sistema no funcionará.»
+> [!IMPORTANT]
+> Esta variable es obligatoria. Si no la agregas correctamente, el sistema no funcionará.»
