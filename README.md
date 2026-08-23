@@ -8,27 +8,35 @@ La idea es sencilla: ofrecer un sistema de multas funcional, organizado y fácil
 
 ---
 
-¿Qué incluye?
+### ¿Qué incluye?
 
 La versión base cuenta con las siguientes funciones:
 
-- Crear multas mediante "/add_fine".
-- Consultar las multas de un usuario mediante "/see_fines".
+- Crear multas mediante ``/add_fine``
+
+- Consultar las multas de un usuario mediante ``/see_fines``
+
 - Mostrar la información completa de cada multa.
+
 - Límite de hasta 15 multas por usuario.
+
 - Eliminación de multas mediante botones.
+
 - Sistema de permisos para consultar y eliminar multas.
+
 - Registro de acciones mediante un canal de logs.
+
 - Información configurable de cada multa.
+
 - Compatible con comandos Slash y Prefix para la consulta de multas.
 
 ---
 
-Información de las multas
+### Información de las multas
 
 La información principal de cada multa se encuentra en una variable configurable del sistema.
 
-Por defecto, contiene:
+**Por defecto, contiene:**
 
 ```js 
 $var[info;
@@ -56,9 +64,9 @@ La información incluida por defecto representa los datos básicos que normalmen
 
 ---
 
-Comandos
+**Comandos**
 
-"/add_fine"
+``/add_fine``
 
 Permite registrar una nueva multa.
 
@@ -66,7 +74,7 @@ Este comando utiliza Slash Commands, ya que el sistema necesita diferentes opcio
 
 ---
 
-"/see_fines"
+``/see_fines``
 
 Permite consultar las multas registradas de un usuario.
 
@@ -81,20 +89,21 @@ Si el usuario cuenta con los permisos necesarios, podrá eliminar la multa media
 
 ---
 
-Eliminación de multas
+### Eliminación de multas
 
-No existe un comando independiente como "/delete_fine".
+No existe un comando independiente como ``/delete_fine``.
 
 La eliminación se realiza mediante los botones disponibles dentro del sistema:
 
 - Desde la información de una multa.
+
 - Desde el mensaje correspondiente en el canal de logs.
 
 Esto permite mantener el sistema más sencillo y evita tener un comando adicional que no resulta necesario.
 
 ---
 
-Sistema de almacenamiento
+### Sistema de almacenamiento
 
 Este sistema utiliza una forma diferente de almacenar la información.
 
@@ -108,8 +117,8 @@ Las variables de BDFD almacenan principalmente información necesaria para local
 
 Cuando el sistema necesita consultar una multa, puede localizar el mensaje correspondiente y obtener de allí la información almacenada.
 
-⚠️ Importante
-
+> [!WARNING]
+> ⚠️ **IMPORTANTE:**
 NO BORRES EL CANAL DE LOGS NI LOS MENSAJES QUE ENVÍA EL BOT EN ESE CANAL.
 
 El sistema utiliza esos mensajes para almacenar la información de las multas.
@@ -120,7 +129,7 @@ Si necesitas limpiar el canal de logs, asegúrate primero de comprender cómo fu
 
 ---
 
-Personalización
+### Personalización
 
 Este sistema está pensado para ser adaptado.
 
@@ -140,7 +149,7 @@ La versión incluida en este repositorio utiliza únicamente la información bá
 
 ---
 
-Compatibilidad
+### Compatibilidad
 
 El sistema está desarrollado utilizando:
 
@@ -153,7 +162,7 @@ Puedes adaptar el sistema a cualquier comunidad que necesite administrar multas 
 
 ---
 
-Código gratuito y abierto
+### Código gratuito y abierto
 
 Este proyecto es gratuito y público.
 
@@ -163,17 +172,17 @@ Si realizas modificaciones importantes, mejoras el sistema o decides publicar nu
 
 No es necesario que mantengas exactamente el mismo sistema, pero sí debes reconocer que el proyecto original fue creado por:
 
-TwisSpark
+***TwisSpark***
 
 Por ejemplo:
 
-«Original system created by TwisSpark. Modified and improved by [Tu nombre].»
+```«Original system created by TwisSpark. Modified and improved by [Tu nombre].»```
 
 La idea es que otras personas puedan mejorar el proyecto sin eliminar el reconocimiento de quien creó la versión original.
 
 ---
 
-¿Quieres una nueva versión?
+### ¿Quieres una nueva versión?
 
 Esta es solamente la versión base del sistema.
 
@@ -183,9 +192,9 @@ Si quieres proponer una función o sugerencia para futuras versiones, es necesar
 
 ---
 
-Autor
+### Autor
 
-TwisSpark
+***TwisSpark***
 
 Desarrollador y creador original del sistema.
 
@@ -193,10 +202,10 @@ Si encuentras un error, tienes una sugerencia o quieres proponer una mejora, pue
 
 ---
 
-¿Te sirvió?
+### ¿Te sirvió?
 
 Si este sistema te ayudó, puedes apoyar el proyecto dejando una estrella en el repositorio.
 
 Y si lo modificas o mejoras, recuerda mantener a TwisSpark como autor original.
 
-«Espero que este sistema sea justo lo que estabas buscando.»
+> «Espero que este sistema sea justo lo que estabas buscando.»
