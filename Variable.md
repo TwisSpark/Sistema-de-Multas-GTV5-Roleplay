@@ -50,6 +50,8 @@ No modifiques "fines", "limit_fines" ni los nombres de las propiedades.
 
 Si modificas la estructura del JSON, puedes provocar errores y hacer que el sistema no funcione correctamente.
 
+---
+
 ### ¿Por qué el límite es de 15 multas?
 
 En esta versión del sistema, el límite está establecido en 15 multas por usuario.
@@ -65,13 +67,15 @@ No se agregaron más opciones en esta versión porque el sistema actual utiliza 
 > [!NOTE]
 > Este límite corresponde a la versión actual del sistema. En una futura versión se podría utilizar otra forma de mostrar las multas para permitir una cantidad mayor.
 
+---
+
 ### ¿Cómo obtener la ID del canal?
 
 Para obtener la ID de un canal necesitas activar el Modo Desarrollador de Discord.
 
-Si no sabes cómo activarlo, puedes ver mi video donde explico cómo hacerlo:
+Si no sabes cómo activarlo, puedes ver mi video donde explico cómo hacerlo: https://youtube.com/shorts/0kAOtT9RIn4
 
-También puedes unirte a mi servidor de Discord si necesitas ayuda:
+También puedes unirte a mi servidor de Discord si necesitas ayuda: https://discord.gg/eSUZFWwajw
 
 Antes de continuar
 
