@@ -30,6 +30,7 @@ La información principal de cada multa se encuentra en una variable configurabl
 
 Por defecto, contiene:
 
+```js 
 $var[info;
 **Ciudadano:** <@$var[userID]>
 **Oficial:** $var[authorID]
@@ -38,6 +39,7 @@ $var[info;
 **Estado:** $var[estado]
 **Fecha:** <t:$getTimestamp:D>
 ]
+'''
 
 Esta parte está pensada para que puedas modificarla según las necesidades de tu servidor.
 
