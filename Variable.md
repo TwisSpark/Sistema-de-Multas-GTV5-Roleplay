@@ -88,4 +88,4 @@ Asegúrate de que:
 - [ ] No modificaste ninguna otra parte del JSON.
 
 > [!IMPORTANT]
-> Esta variable es obligatoria. Si no la agregas correctamente, el sistema no funcionará.»
+> Esta variable es obligatoria. Si no la agregas correctamente, el sistema no funcionará.
